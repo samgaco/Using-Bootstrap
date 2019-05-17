@@ -1,10 +1,13 @@
 /* General classes */
 
 .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 1px solid black;
+}
 
-    padding-right: 2px;
-    padding-left: 2px;
-
+.container{
+    border: 1px solid black;
 }
 
 body{
@@ -20,10 +23,114 @@ header{
     color: white;
 }
 
-header h2{
-    font-weight: bolder;
-    font-size: 1.5rem;
-    padding: 8px 0px 20px 10px;
+
+/* 2 - Second container - Top Story */
+
+.second{
+    height: 30rem;
+}
+
+/* 3 - Third container - More Stories */
+
+.third{
+    height: 82rem;
+}
+
+.box3{
+    background: rgb(70, 122, 70);
+    border: 1px solid black;
+    height: 10rem;
+}
+
+/* 4 - Fourth container - More Stories */
+
+.fourth{
+    height: 81rem;
+}
+
+.box4{
+    background: rgb(156, 89, 147);
+    border: 1px solid black;
+    height: 20rem;
+}
+
+
+/* 5 - Fourth container - Opinion */
+
+.fifth{
+
+    height: 35rem;
+}
+
+.box5{
+    background: rgb(236, 132, 132);
+    border: 1px solid black;
+    height: 5.7rem;
+}
+
+/* 6 - Sixth container - Latest news */
+
+.sixth{
+
+    height: 52rem;
+}
+
+.box6{
+
+    background: rgb(94, 167, 163);
+    border: 1px solid black;
+    height: 6.4rem;
 
 }
 
+
+/* 7 - Seventh container - Sign up */
+
+.seventh{
+
+    height: 16rem;
+}
+
+.box7{
+
+    height: 15rem;
+    background: #6e6e6e;
+    border: 1px solid black;
+    
+
+}
+
+
+/* 8 - eight container - See all features */
+
+
+
+.box8{
+
+    background: #f79310;
+    border: 1px solid black;
+    height: 22rem;
+}
+
+/* 9 - ninth container - in the magazine */
+
+
+.box9{
+
+    background: #ff80ff;
+    border: 1px solid black;
+    height: 16rem;
+
+}
+
+/* 10 - tenth container - editor's picks */
+
+/* 11 - eleventh container - slide shows */
+
+/* 12 - twelfth container - off-topics */
+
+/* 13 - thirteenth container - subscribe */
+
+/* 14 - fourteenth container - most read */
+
+/* 15 - fifteenth container - footer */
