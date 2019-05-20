@@ -6,16 +6,13 @@
     border: 1px solid black;
 }
 
-.container{
-    border: 1px solid black;
-}
 
 body{
     background: whitesmoke;
 }
 
-/* 1 - First container */
 
+/* 1 - First container */
 
 header{
     height: 2.5em;
@@ -114,7 +111,6 @@ header{
 
 /* 9 - ninth container - in the magazine */
 
-
 .box9{
 
     background: #ff80ff;
@@ -124,6 +120,12 @@ header{
 }
 
 /* 10 - tenth container - editor's picks */
+
+.box10{
+    background: #f72210;
+    border: 1px solid black;
+    height: 24rem;
+}
 
 /* 11 - eleventh container - slide shows */
 
