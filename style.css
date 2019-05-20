@@ -8,6 +8,12 @@ body{
     margin-right: 1%;
     margin-left: 1%;
     background: white;
+    padding: 1.5%;
+}
+
+.block-text{
+    margin-bottom: 0.5%;
+    text-align: center;
 }
 
 
@@ -125,8 +131,13 @@ header{
 /* 10 - tenth container - editor's picks */
 
 .tenth h1{
-    text-align: center; font-size: 1.2em; font-weight: bold; padding-top: 1%;
+    font-size: 1.2em; font-weight: bold; padding-top: 1%;
+    display: inline-block; margin-left: 0.5%;
 }
+
+.top-row{border-top: 1px solid gainsboro;}
+
+.block-text img{width: 30px;}
 
 .box10{
     height: 105vw;
@@ -173,6 +184,11 @@ header{
     background: #3c7aec;
     border: 1px solid black;
     height: 21rem;
+}
+
+.eleventh h1{
+    font-size: 1.2em; font-weight: bold; padding-top: 1%;
+    display: inline-block; margin-left: 0.5%;
 }
 
 /* 12 - twelfth container - off-topics */
