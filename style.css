@@ -1,10 +1,13 @@
 /* General classes */
 
-
-
-
 body{
     background: whitesmoke;
+}
+
+.margin-con{
+    margin-right: 1%;
+    margin-left: 1%;
+    background: white;
 }
 
 
@@ -115,19 +118,55 @@ header{
 .box9{
     background: #ff80ff;
     border: 1px solid black;
-    height: 0rem;
-    padding-bottom: 30%;}
-
+    height: 16rem;
+}
 
 
 /* 10 - tenth container - editor's picks */
 
-.box10{
-    background: #f72210;
-    border: 1px solid black;
-    height: 24rem;
+.tenth h1{
+    text-align: center; font-size: 1.2em; font-weight: bold; padding-top: 1%;
 }
 
+.box10{
+    height: 105vw;
+}
+
+.box10 img{ padding-top: 5%; width: 90vw; }
+
+.box10 h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.box10 p{font-size: 0.9em;}
+
+.image-cont{
+    position: relative;
+}
+
+.tag10{
+    height: 2rem;
+    width: 22%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 740px){
+    .box10{height: 40vw;}
+    .box10 img{padding-top: 5%; width: 20vw;}
+}
+
+
+.tag10 h3{color: #f72614; font-weight: bold; font-size: 1.1em; padding-top: 8%;}
 /* 11 - eleventh container - slide shows */
 
 .box11{
