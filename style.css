@@ -1,10 +1,6 @@
 /* General classes */
 
-.container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
-    border: 1px solid black;
-}
+
 
 
 body{
@@ -100,24 +96,29 @@ header{
 
 /* 8 - eight container - See all features */
 
-
-
 .box8{
 
     background: #f79310;
     border: 1px solid black;
-    height: 22rem;
+    height: 34rem;
+}
+
+
+.box8-big{
+    background: #f79310;
+    border: 1px solid black;
+    height: 78wv;
 }
 
 /* 9 - ninth container - in the magazine */
 
 .box9{
-
     background: #ff80ff;
     border: 1px solid black;
-    height: 16rem;
+    height: 0rem;
+    padding-bottom: 30%;}
 
-}
+
 
 /* 10 - tenth container - editor's picks */
 
@@ -128,6 +129,12 @@ header{
 }
 
 /* 11 - eleventh container - slide shows */
+
+.box11{
+    background: #3c7aec;
+    border: 1px solid black;
+    height: 21rem;
+}
 
 /* 12 - twelfth container - off-topics */
 
