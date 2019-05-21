@@ -323,6 +323,101 @@ header{
 
 /* 13 - thirteenth container - subscribe */
 
+.box13{
+    height: 120vw;
+    border: 1px solid black;
+    background: whitesmoke;
+    width: 100%;
+    margin: 2%;
+}
+
+.title-subscribe{
+    color: #f72210;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: -1%;
+}
+
+.box13-up{
+    height: 40%;
+    border: 1px solid black;
+}
+
+.box13-up-left{
+
+    width: 45%;
+    height: 100%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.box13-up-left img{
+    width: 90%;
+}
+
+.box13-down{
+    height: 60%;
+    border: 1px solid black;
+}
+
+.box13-down-left{
+
+    width: 45%;
+    height: 100%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.box13-down-left img{
+    width: 85%;
+}
+
+@media screen and (min-width: 768px){
+
+    .box13{
+        height: 37vw;
+    }
+    
+
+}
+
 /* 14 - fourteenth container - most read */
+
+.box14{height: 50vw; background: white;}
+
+.box14-divs{
+    height: 33vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top: 1px solid gainsboro;
+    padding-top: 3%;
+    background: white;
+}
+
+.box14-divs-left{
+    height: 100%;
+    width: 40%;
+    padding: 1%;
+}
+
+.box14-divs-right{ width: 60%; height:100%;}
+
+.box14-divs-right h2{ font-size: 0.9em; font-weight: bold;}
+
+
+
+.box14-divs-left img{      width: 90%;  height: 80%;   justify-content: center;}
+
+.most-reads{ color: darkslategray; font-size: 0.9em; font-weight: bold;}
+
+@media screen and (min-width: 768px){
+
+    .box14-divs{
+        height: 8vw;
+    }
+    
+
+}
 
 /* 15 - fifteenth container - footer */
