@@ -246,7 +246,16 @@ header{
     height: 92vw;
     background: #ff988f;
     border: 1px solid black;
+    padding: 2%;
+
 }
+
+.box12-up img{
+    width: 92vw; padding-top: 3%; }
+
+
+.box12-up h2{
+        font-size: 1em; font-weight: bold; padding-top: 2%;}
 
 
 .box12-down{
@@ -259,7 +268,14 @@ header{
 
     .box12-down{height: 11.5vw;}
 
-    .box12-up{height: 35vw;}
+    .box12-up{height: 37vw; }
+
+    .box12-up img{
+        width: 30vw; padding-top: 3%; margin: 2%; }
+    
+    
+    .box12-up h2{
+            font-size: 1em; font-weight: bold; padding-top: 2%;}
 
 }
 
