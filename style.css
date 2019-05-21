@@ -379,7 +379,7 @@ header{
 
 /* 14 - fourteenth container - most read */
 
-.box14{height: 50vw; background: white;}
+.box14{height: 50vw; background: rgb(255, 255, 255);}
 
 .box14-divs{
     height: 33vw;
@@ -420,8 +420,17 @@ header{
     .box14-divs{
         height: 7vw;
     }
+
+    .box14{height: 40vw;}
     
 
 }
 
+
 /* 15 - fifteenth container - footer */
+
+.fifteenth{
+    height: 10rem;
+    width: 100%;
+    background: rgb(146, 146, 146);
+}
