@@ -18,6 +18,9 @@ body{
 
 .top-row{border-top: 1px solid gainsboro;}
 
+.more-pad{ padding-top: 5%;}
+
+
 
 /* 1 - First container */
 
@@ -30,8 +33,9 @@ header{
 
 /* 2 - Second container - Top Story */
 
-.second{
+.box2{
     height: 30rem;
+    border: black solid 1px;
 }
 
 /* 3 - Third container - More Stories */
@@ -63,7 +67,7 @@ header{
 
 .fifth{
 
-    height: 35rem;
+    height: 103rem;
 }
 
 .box5{
@@ -74,10 +78,6 @@ header{
 
 /* 6 - Sixth container - Latest news */
 
-.sixth{
-
-    height: 52rem;
-}
 
 .box6{
 
@@ -90,10 +90,6 @@ header{
 
 /* 7 - Seventh container - Sign up */
 
-.seventh{
-
-    height: 16rem;
-}
 
 .box7{
 
@@ -281,7 +277,6 @@ header{
     margin-bottom: -7.7%;
 }
 
-.more-pad{ padding-top: 5%;}
 
 @media screen and (min-width: 768px){
 
@@ -433,4 +428,8 @@ header{
     height: 10rem;
     width: 100%;
     background: rgb(146, 146, 146);
+}
+
+@media screen and (max-width: 768px){
+   .fifteenth{ margin-top: 130%;}
 }
