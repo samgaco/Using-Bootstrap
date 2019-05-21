@@ -16,6 +16,8 @@ body{
     text-align: center;
 }
 
+.top-row{border-top: 1px solid gainsboro;}
+
 
 /* 1 - First container */
 
@@ -135,8 +137,6 @@ header{
     display: inline-block; margin-left: 0.5%;
 }
 
-.top-row{border-top: 1px solid gainsboro;}
-
 .block-text img{width: 30px;}
 
 .box10{
@@ -237,15 +237,11 @@ header{
 
 .box12{
     width: 100%;
-    background: #fdff8f;
-    border: 1px solid black;
 }
 
 
 .box12-up{
     height: 92vw;
-    background: #ff988f;
-    border: 1px solid black;
     padding: 2%;
 
 }
@@ -260,24 +256,70 @@ header{
 
 .box12-down{
     height: 30vw;
-    background: #ff988f;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gainsboro;
 }
+
+.noborder{border: none;}
+
+.box12-down img{
+    width: 35vw; padding-top: 3%; }
+
+
+
+.box12-down h2{
+        width: 50%; padding-top: 3%; font-size: 0.9em; font-weight: bold; }
+
+
+.title-off{
+    color: #f72210;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 1.6%;
+    margin-bottom: -7.7%;
+}
+
+.more-pad{ padding-top: 5%;}
 
 @media screen and (min-width: 768px){
 
-    .box12-down{height: 11.5vw;}
+    .title-off{margin-bottom: -3%;}
+
+    .more-pad{ padding-top: 1%;}
+
+
+    .box12-down{height: 11.5vw;      }
 
     .box12-up{height: 37vw; }
 
     .box12-up img{
-        width: 30vw; padding-top: 3%; margin: 2%; }
+        width: 29vw; padding-top: 3%; margin-right: 4%; padding-right: 2%; }
     
     
     .box12-up h2{
             font-size: 1em; font-weight: bold; padding-top: 2%;}
 
+
+
+    .box12-down img{
+                width: 12vw; height: 120px; padding-top: 3%; }
+
+    .box12-down h2{
+                width: 58%; padding-top: 3%; font-size: 0.9em; font-weight: bold; }
+
 }
+
+@media screen and (min-width: 1440px){
+
+    .box12-down img{
+        width: 15vw; height: 140px; padding-top: 3%; }
+
+.box12-down h2{
+        width: 42%; padding-top: 3%; font-size: 1.2em; font-weight: bold; }
+}
+
 
 /* 13 - thirteenth container - subscribe */
 
