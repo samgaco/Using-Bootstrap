@@ -235,6 +235,34 @@ header{
 
 /* 12 - twelfth container - off-topics */
 
+.box12{
+    width: 100%;
+    background: #fdff8f;
+    border: 1px solid black;
+}
+
+
+.box12-up{
+    height: 92vw;
+    background: #ff988f;
+    border: 1px solid black;
+}
+
+
+.box12-down{
+    height: 30vw;
+    background: #ff988f;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 768px){
+
+    .box12-down{height: 11.5vw;}
+
+    .box12-up{height: 35vw;}
+
+}
+
 /* 13 - thirteenth container - subscribe */
 
 /* 14 - fourteenth container - most read */
