@@ -325,7 +325,6 @@ header{
 
 .box13{
     height: 120vw;
-    border: 1px solid black;
     background: whitesmoke;
     width: 100%;
     margin: 2%;
@@ -336,11 +335,11 @@ header{
     font-weight: bold;
     font-size: 1em;
     margin-bottom: -1%;
+    margin-left: 1%;
 }
 
 .box13-up{
     height: 40%;
-    border: 1px solid black;
 }
 
 .box13-up-left{
@@ -348,7 +347,6 @@ header{
     width: 45%;
     height: 100%;
     padding: 2%;
-    border: 1px solid black;
 }
 
 .box13-up-left img{
@@ -357,7 +355,6 @@ header{
 
 .box13-down{
     height: 60%;
-    border: 1px solid black;
 }
 
 .box13-down-left{
@@ -365,7 +362,6 @@ header{
     width: 45%;
     height: 100%;
     padding: 2%;
-    border: 1px solid black;
 }
 
 .box13-down-left img{
@@ -411,10 +407,18 @@ header{
 
 .most-reads{ color: darkslategray; font-size: 0.9em; font-weight: bold;}
 
+
+@media screen and (max-width: 768px){
+
+    .box14{padding-top: 5%;}
+    
+
+}
+
 @media screen and (min-width: 768px){
 
     .box14-divs{
-        height: 8vw;
+        height: 7vw;
     }
     
 
