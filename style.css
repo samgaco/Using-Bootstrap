@@ -383,7 +383,8 @@ header{
     flex-wrap: wrap;
     border-top: 1px solid gainsboro;
     padding-top: 3%;
-    background: white;
+    background: rgb(255, 255, 255);
+    margin-bottom: -2%;
 }
 
 .box14-divs-left{
@@ -413,7 +414,14 @@ header{
 @media screen and (min-width: 768px){
 
     .box14-divs{
-        height: 7vw;
+        height: 10vw;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .box14-divs{
+        height: 8vw;
     }
 
     .box14{height: 40vw;}
@@ -433,3 +441,7 @@ header{
 @media screen and (max-width: 768px){
    .fifteenth{ margin-top: 130%;}
 }
+
+@media screen and (min-width: 768px){
+    .fifteenth{ margin-top: 10%;}
+ }
