@@ -33,15 +33,30 @@ body{
 
 /* 1 - First container */
 
+@media screen and (max-width:768px){
+
+    .no-small{
+display: none; 
+  }
+
+}
+
+@media screen and (min-width:768px){
 header{
-    height: 6.2em;
+    
+    min-height: 6.2em;
     background: red;
     color: white;
     padding-top: 2%;
-}
+
+} 
+
 
 .header-img{
- width: 30%;
+
+ max-width: 30%;
+}
+
 }
 
 /* 2 - Second container - Top Story */
@@ -247,6 +262,11 @@ header{
 
 .box5-right a:hover{ color: orangered;}
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .fifth{    margin-top: 8%;
+    }
+}
+
 /* 6 - Sixth container - Latest news */
 
 .box6{
@@ -377,17 +397,46 @@ header{
 
 .box8{
 
-    background: #f79310;
-    border: 1px solid black;
-    height: 34rem;
+    height: 120vw;
+}
+
+.tags{background: white; width: 28%; opacity: 0.8;
+    height: 7%;
+    color: rgb(255, 17, 0); font-weight: bold;
+   font-size: 0.9em;
+   position: absolute;    
+   bottom: 0;
+   left: 0;
+   padding-top: 2%;
+   padding-left: 1%;
+   }
+
+.box8-up{
+    height: 90%;
+    width: 100%;
+    background-image:url(images/box8.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+    min-width: 350px;
+    position: relative;
+}
+
+.box8-down{
+    height: 10%;
+    width: 100%;
+    background: whitesmoke;
+    padding-top: 1%;
+}
+
+.box8-down h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
 }
 
 
-.box8-big{
-    background: #f79310;
-    border: 1px solid black;
-    height: 78wv;
-}
+
 
 
 @media screen and (max-width:768px){
@@ -395,13 +444,154 @@ header{
 
 }
 /* 9 - ninth container - in the magazine */
+.ninth{margin-bottom: 6%;}
 
-.box9{
-    background: #ff80ff;
-    border: 1px solid black;
-    height: 16rem;
+.box8-big-up{
+    height: 90%;
+    width: 100%;
+    background-image:url(images/box8.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 350px;
+    min-width: 100px;
+    position: relative;
 }
 
+.box8-9-down{
+    height: 10%;
+    width: 100%;
+    background: whitesmoke;
+    padding-top: 1%;
+
+}
+
+.box8-9-down h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.box9{
+    height: 24rem;
+}
+
+
+.box9-up{
+    height: 75%;
+    width: 100%;
+}
+
+.box9-up img{
+
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.box9-mid{
+    height: 10%;
+    width: 100%;
+    padding-top: 2%;
+
+}
+
+.box9-mid-left{
+    width: 35%;
+    height: 80%;
+}
+
+.box9-mid-left h2{
+    font-size: 0.86em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 5%;
+    background: red;
+}
+
+.box9-down h2{
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    padding-top: 4%;
+}
+
+.box9-down h2:hover{
+    text-decoration: underline red;
+}
+
+.box9-mid-right h2{
+    font-size: 0.86em;
+    color: red;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+
+.box9-mid-right{
+    width: 30%;
+    height: 80%;
+    margin-left: 2%;
+}
+
+.box9-down{
+    height: 15%;
+    width: 100%;
+}
+
+.upset-right9{
+    border-top: 1px solid gainsboro;
+    padding: 1%;
+}
+
+.block-text9{
+    margin-left: 37%;
+    margin-bottom: 1%;
+    width: 38%;
+    margin-top: 5%;
+    height: 3rem;
+    padding-top: 1%;
+}
+
+.block9-up{
+    height: 100%;
+    width: 10%;
+
+}
+
+.block9-down{
+    height: 100%;
+    width: 70%;
+
+}
+
+
+.block-text9 h3{
+font-size: 0.9em;
+font-weight: bold;
+padding-top: 1.9%;
+padding-left: 1.4%;
+}
+
+.block-text9 img{
+    height: 30px;
+    width: 30px;
+}
+@media screen and(min-width:768px){
+    .block-text9{
+        margin-left: 57%;
+        margin-bottom: 1%;
+        width: 38%;
+        margin-top: 5%;
+        border: 1px solid black;
+        height: 3rem;
+        padding-top: 1%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .fifth{    height: 133rem;    }
+}
 
 /* 10 - tenth container - editor's picks */
 
