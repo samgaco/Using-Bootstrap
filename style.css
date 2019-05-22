@@ -904,8 +904,85 @@ padding-left: 1.4%;
 .fifteenth{
     height: 10rem;
     width: 100%;
-    background: rgb(146, 146, 146);
 }
+
+.footer-up{
+    height: 50%;
+    width: 100%;
+}
+
+.footer-up-left{
+
+    width: 50%;
+    height: 100%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+
+}
+
+
+.footer-up-right{
+
+    width: 50%;
+    height: 100%;
+
+    position: relative;
+}
+
+
+.footer-up-left img{
+
+    width: 40%;
+}
+
+.footer-up-left p{
+    font-size: 0.9em;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 1.6%;
+}
+
+
+.footer-down{
+    height: 50%;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+}
+
+.footer-down-left{
+    width: 50%;
+    height: 100%;
+}
+
+.footer-down-left a{
+    border-left: 1px solid gainsboro;
+    padding-left: 1%;
+}
+
+.footer-down-right{
+    width: 50%;
+    height: 100%;
+    padding-left: 20%;
+}
+
+.footer-down-right a{
+    border-left: 1px solid gainsboro;
+    padding-left: 1%;
+}
+
+.icons-social{
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5em;
+}
+
+.icons-social:hover{color: rgb(9, 9, 122);}
+
+navbar{color: rgb(100, 99, 99);}
 
 @media screen and (max-width: 768px){
    .fifteenth{ margin-top: 130%;}
