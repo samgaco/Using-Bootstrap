@@ -95,6 +95,7 @@ header{
 
     height: 10rem;
     border-top: 1px solid gainsboro;
+    margin: 2%;
 }
 
 
@@ -109,6 +110,7 @@ header{
 .box3-right{
     width: 70%;
     padding-top: 5.5%;
+    padding-left: 3%;
 }
 
 .box3-right h2{
@@ -122,6 +124,14 @@ header{
 
 .box3-right p{
     font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 768px){
+
+.box3-right{
+    padding-left: 5%;
+                    }
 }
 
 /* 4 - Fourth container - More Stories */
@@ -235,13 +245,42 @@ header{
 
 /* 6 - Sixth container - Latest news */
 
-
 .box6{
+    height: 7.4rem;
+    border-top: 1px solid gainsboro;
+    margin: 2%; }
 
-    background: rgb(94, 167, 163);
-    border: 1px solid black;
-    height: 6.4rem;
+#first-latest{
+    border: none;
+}
 
+.box6-left{
+    width: 40%;
+}
+
+.box6-left img{
+    padding-top: 20%;
+    max-width: 100%;
+}
+
+.box6-right{
+    width: 60%;
+    padding-top: 8%;
+    padding-left: 3%;
+}
+
+.box6-right h2{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.box6-right h2:hover{
+    color: orangered;
+}
+
+
+@media screen and (max-width:768px){
+    .box6{height: 9.4rem;}
 }
 
 
