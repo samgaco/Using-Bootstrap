@@ -20,6 +20,7 @@ body{
 
 .more-pad{ padding-top: 5%;}
 
+.headings-bigc{color: silver; font-weight: bold; font-size: 1em; padding-left: 4%;}
 
 
 /* 1 - First container */
@@ -70,11 +71,52 @@ header{
     height: 103rem;
 }
 
+
 .box5{
-    background: rgb(236, 132, 132);
-    border: 1px solid black;
-    height: 5.7rem;
+    min-height: 5.7rem;
+    border-bottom: 1px solid gainsboro;
+    margin: auto 3% auto 3%;
 }
+
+
+.box5 img{ 
+    max-width: 70px;
+}
+
+
+.box5-left{ 
+    min-width: 25%;
+    height: 100%;
+    padding-top: 2%;
+
+}
+
+
+.box5-right{ 
+    width: 75%;
+    height: 100%;
+    padding-left: 2%;
+}
+
+
+.box5-right h2{
+    padding-top: 5%;
+    font-size: 0.9em;
+    font-weight: bold; }
+
+
+.box5-right h3{
+    color: dimgray;
+    font-weight: bold;
+    font-size: 0.8em; }
+
+
+.box5-right a{
+    text-decoration: none;
+    color: black; }
+
+
+.box5-right a:hover{ color: orangered;}
 
 /* 6 - Sixth container - Latest news */
 
@@ -374,7 +416,7 @@ header{
 
 /* 14 - fourteenth container - most read */
 
-.box14{height: 50vw; background: rgb(255, 255, 255);}
+.box14{height: 50vw;  background: rgb(255, 255, 255);}
 
 .box14-divs{
     height: 33vw;
@@ -406,7 +448,8 @@ header{
 
 @media screen and (max-width: 768px){
 
-    .box14{padding-top: 5%;}
+    .box14{padding-top: 5%;width: 100%;}
+
     
 
 }
@@ -415,6 +458,7 @@ header{
 
     .box14-divs{
         height: 10vw;
+        width: 100%;
     }
 }
 
