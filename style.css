@@ -92,15 +92,42 @@ header{
 }
 
 .box3{
-    background: rgb(70, 122, 70);
-    border: 1px solid black;
+
     height: 10rem;
+    border-top: 1px solid gainsboro;
+}
+
+
+.box3-left{
+    width: 30%;
+}
+
+.box3 img{
+    padding-top: 20%;
+}
+
+.box3-right{
+    width: 70%;
+    padding-top: 5.5%;
+}
+
+.box3-right h2{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.box3-right h2:hover{
+    text-decoration: underline red;
+}
+
+.box3-right p{
+    font-size: 0.9em;
 }
 
 /* 4 - Fourth container - More Stories */
 
 .fourth{
-    height: 129rem;
+    height: 130rem;
 }
 
 .box4{
