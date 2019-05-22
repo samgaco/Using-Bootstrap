@@ -20,7 +20,7 @@ body{
 
 .more-pad{ padding-top: 5%;}
  
-.headings-bigc{color: silver; font-weight: bold; font-size: 1em; padding-left: 3%;}
+.headings-bigc{color: silver; font-weight: bold; font-size: 1em; padding-left: 3%; padding-top: 2%;}
 
 .tags{background: white; width: 15%; opacity: 0.7;
      color: orangered; font-weight: bold;
@@ -67,12 +67,17 @@ header{
 
 }
 
+.box2-mid h2:hover{
+    text-decoration: underline red;
+
+}
 
 .box2-mid p{ font-size: 0.9em;}
 
 
 .box2-down{border-bottom: 1px solid gainsboro;}
 
+.box2-down h2:hover{color: orangered;}
 
 .box2-down h2{
     font-size: 1.1em;
@@ -95,13 +100,55 @@ header{
 /* 4 - Fourth container - More Stories */
 
 .fourth{
-    height: 81rem;
+    height: 129rem;
 }
 
 .box4{
-    background: rgb(156, 89, 147);
-    border: 1px solid black;
-    height: 20rem;
+    height: 32rem;
+    padding: 2%;
+}
+
+
+
+.box4-up{
+    background-image:url(images/box4.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+    position: relative;
+}
+
+.box4-mid{
+    border-bottom: 1px solid gainsboro;}
+
+
+.box4-mid h2{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 1%;
+
+}
+
+.box4-mid h2:hover{
+    text-decoration: underline red;
+
+}
+
+
+.box4-mid p{ font-size: 0.9em;}
+
+
+.box4-down{border-bottom: 1px solid gainsboro;}
+
+.box4-down h2:hover{
+    color: orangered;
+
+}
+
+.box4-down h2{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 2%;
 }
 
 
