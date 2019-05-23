@@ -35,9 +35,70 @@ body{
 
 @media screen and (max-width:768px){
 
-    .no-small{
-display: none; 
-  }
+  .no-small{ display: none; }
+
+  .header-screen{
+    min-height: 2.7em;
+    width: 100%;
+    background: red;
+    color: white;
+    position: fixed;
+    z-index:1; } 
+
+
+  .header-left{
+    width: 30%;
+    height: 100%;
+margin-top: 0.5%; }
+
+.header-left img{
+
+        width: 150px;
+        padding-top: 3%;
+        padding-left: 2%;
+    }
+
+    .header-right-l{
+
+        width: 55%;
+    }
+
+    .header-right-r{
+        margin-top: 2%;
+        width: 45%;
+    }
+
+  .header-right{
+        width: 70%;
+        height: 100%;
+        }
+
+
+    .signin-h{
+       color : white;
+       font-weight: bold;
+       font-size: 0.8em;
+       padding: 1%;
+    }
+
+    .bars-h{
+        color : white;
+        font-weight: bold;
+        font-size: 0.9em;
+        padding: 1%;
+        margin-left: 3%;
+     }
+
+
+    .subscribe-h{
+
+        color : rgb(255, 0, 0);
+        font-weight: bold;
+        font-size: 0.8em;
+        background: white;
+        width: 40%;
+        padding: 1%;  
+    margin-left: 1%;  }
 
 }
 
@@ -60,6 +121,8 @@ header{
 }
 
 /* 2 - Second container - Top Story */
+
+.first-con-marg{padding-top: 5%;}
 
 .box2{
     height: 37rem;
