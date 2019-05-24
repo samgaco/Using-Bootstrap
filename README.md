@@ -1,3 +1,5 @@
 # Using-Bootstrap
 
-              <p>    © 2019 NEWSWEEK   </p>     
+Clone of newsweek magazine
+
+Author: Samuel García @samgaco
