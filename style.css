@@ -272,10 +272,10 @@ header{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 
 .box3-right{
-    padding-left: 5%;
+    padding-left: 8%;
                     }
 }
 
@@ -568,6 +568,8 @@ header{
 @media screen and (max-width:768px){
     .eight{margin-top: 130%;}
 
+    .box8{    margin-bottom: 12%;    }
+
 }
 /* 9 - ninth container - in the magazine */
 .ninth{margin-bottom: 6%;}
@@ -587,9 +589,8 @@ header{
     height: 10%;
     width: 100%;
     background: whitesmoke;
-    padding-top: 1%;
+    padding-top: 1%;  }
 
-}
 
 .box8-9-down h2{
     font-size: 1em;
@@ -609,8 +610,10 @@ header{
 
 .box9-up img{
 
-    max-width: 100%;
+    width: 95%;
     min-height: 100%;
+    margin: auto;
+    display: block;
 }
 
 .box9-mid{
@@ -686,12 +689,14 @@ header{
 .block9-down{
     height: 100%;
     width: 70%;
+    padding-left: 3%;
+    padding-top: 2%;
 
 }
 
 
 .block-text9 h3{
-font-size: 0.9em;
+font-size: 1em;
 font-weight: bold;
 padding-top: 1.9%;
 padding-left: 1.4%;
@@ -701,13 +706,34 @@ padding-left: 1.4%;
     height: 30px;
     width: 30px;
 }
+
+
+.magazine-text{
+    width: 90%; }
+
+
+
+@media screen and (max-width:768px){
+   
+
+    .magazine-text{
+        width: 100%; }
+    
+    
+
+        .block9-down h3{
+           font-size: 0.9em;
+           padding-left: 35%;
+        
+        }
+}
+
 @media screen and(min-width:768px){
     .block-text9{
         margin-left: 57%;
         margin-bottom: 1%;
         width: 38%;
         margin-top: 5%;
-        border: 1px solid black;
         height: 3rem;
         padding-top: 1%;
     }
