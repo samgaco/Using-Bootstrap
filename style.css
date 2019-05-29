@@ -1114,8 +1114,8 @@ navbar{color: rgb(100, 99, 99);}
 .date-h{
     color:white;
     position: absolute;
-    bottom: 1;
-    left: 1;
+    bottom: 10px;
+    left: 5px;
     margin-top: 2.9%;
     margin-left: 0.8%;
 }
@@ -1135,7 +1135,8 @@ navbar{color: rgb(100, 99, 99);}
 
 font-size: 0.9em;
 margin-right: 10%;
-margin-left: 20%;
+margin-left: 17%;
+margin-top: 16%;
 font-weight: bold;
 width: 50%;
 
@@ -1150,8 +1151,8 @@ width: 50%;
     font-weight: bold;
     padding-top: 2%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 50px;
+    right: 5px;
     
 
 }
@@ -1247,6 +1248,7 @@ margin-top: 0.5%; }
        font-weight: bold;
        font-size: 0.72em;
        padding: 1%;
+
     }
 
     .bars-h{
@@ -1266,7 +1268,8 @@ margin-top: 0.5%; }
         background: white;
         width: 40%;
         padding: 1%;  
-    margin-left: 1%;  }
+
+}
 
 
 
