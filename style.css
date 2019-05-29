@@ -943,6 +943,12 @@ navbar{color: rgb(100, 99, 99);}
            padding-left: 35%;
         
         }
+
+    /* 10  - Editor's pick */
+
+    .box10{
+        margin-bottom: -10%;
+    }
     /* 14 - fourteenth container - most read */
 
     .box14{padding-top: 5%;width: 100%;}
@@ -1065,6 +1071,8 @@ navbar{color: rgb(100, 99, 99);}
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
+
+
         /* 5 - Fourth container - Opinion */
 
         .fifth{    margin-top: 8%;
@@ -1077,6 +1085,12 @@ navbar{color: rgb(100, 99, 99);}
     .box9-mid-left{
 
         width: 100%;
+    }
+
+    /* 10  - Editor's pick */
+
+    .box10{
+        margin-bottom: -6%;
     }
 }
 
@@ -1154,6 +1168,12 @@ header{
 
     width: 100%;
 }
+
+    /* 10  - Editor's pick */
+
+    .box10{
+        margin-bottom: -8%;
+    }
     /* 14 - fourteenth container - most read */
 
 
