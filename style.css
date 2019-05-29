@@ -451,7 +451,7 @@ body{
 
 .box9-up img{
 
-    width: 95%;
+    width: 100%;
     min-height: 100%;
     margin: auto;
     display: block;
@@ -944,6 +944,14 @@ navbar{color: rgb(100, 99, 99);}
         
         }
 
+        .box9-up img{
+
+            width: 80vw;
+            min-height: 30vw;
+            margin: auto;
+            display: block;
+        }
+
     /* 10  - Editor's pick */
 
     .box10{
@@ -1086,6 +1094,9 @@ navbar{color: rgb(100, 99, 99);}
 
         width: 100%;
     }
+
+
+    
 
     /* 10  - Editor's pick */
 
@@ -1265,6 +1276,10 @@ margin-top: 0.5%; }
 .box3-right{
     padding-left: 8%;
                     }
+
+    /*9 - in the magazine */
+
+
 }
 
 @media screen and (max-width:1300px){
