@@ -1073,6 +1073,11 @@ navbar{color: rgb(100, 99, 99);}
 
 
     .fifth{    height: 133rem;    }
+
+    .box9-mid-left{
+
+        width: 100%;
+    }
 }
 
 
@@ -1141,6 +1146,13 @@ header{
 
  max-width: 30%;
  margin-bottom: 1%;
+}
+
+/* 9 - In the magazine */
+
+.box9-mid-left{
+
+    width: 100%;
 }
     /* 14 - fourteenth container - most read */
 
