@@ -8,6 +8,7 @@ The close is designed to be responsive in all screen sizes implementing bootstra
 
 Live demo: 
 
+https://rawcdn.githack.com/samgaco/Using-Bootstrap/346ac575dbc3eaa096890ef5ece5f590132d17eb/index.html
 
 ## Author
 
